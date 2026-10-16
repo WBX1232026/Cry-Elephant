@@ -1,0 +1,8 @@
+Cry Elephant 英文旁白台词（每页进入 0.6 秒后自动播放，播放时背景音乐自动降低）
+
+0_Home:    "Welcome to Cry Elephant. A little story about big feelings."
+1_Play:    "The baby elephant loves to play. Tap the balloons and play with your friends."
+2_Choose:  "The elephant is holding a balloon. Will you share it with your friends?"
+3_Cry:     "Oh no! The baby elephant fell down and started to cry."
+4_Calm:    "Everyone takes a deep breath together. Tap the elephant, and breathe in... and out."
+5_Credits: "The elephant learned how to calm down. Thank you for reading!"

@@ -1,0 +1,18 @@
+Cry Elephant 交互提示语（英文，实际运行时显示的内容）
+
+【1_Play 兔子】
+  Tap the rabbit to say hello!
+  Rabbit is your friend now!
+
+【3_Cry 乌龟】
+  The turtle is shy. Tap the shell gently.
+  The turtle is still shy. Be patient...
+  The turtle trusts you now!
+
+【4_Calm 深呼吸】
+  Breathe in...
+  Breathe out...
+
+【5_Credits 友谊总结（按选择动态显示）】
+  You made N new friend(s) today!
+  Try again and make some friends!

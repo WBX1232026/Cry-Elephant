@@ -1,0 +1,14 @@
+========== 0_Home ==========
+  Cry Elephant
+========== 1_Play ==========
+  [Text] Tap the rabbit to say hello!
+  [运行时] Rabbit is your friend now!
+========== 2_Choose ==========
+  What do you want to do? /  /     Do you want share?
+========== 3_Cry ==========
+  [Text] The turtle is shy. Tap the shell gently.
+  [运行时] The turtle is still shy. Be patient...
+  [运行时] The turtle trusts you now!
+========== 4_Calm ==========
+========== 5_Credits ==========
+  Cry Elephant /  /  /     Thank You

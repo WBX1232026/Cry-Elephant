@@ -6,7 +6,7 @@ PROG2006 Assessment 2 — 2026.
 ## How to run
 
 1. Install Unity 2022.3.62f2 via Unity Hub.
-2. In Unity Hub: **Add project from disk** → select the `项目` folder.
+2. In Unity Hub: **Add project from disk** → select the `project` folder.
 3. Open the project and press **Play**.
 
 ## Story & pages
@@ -19,13 +19,13 @@ English narration plays on every page; background music automatically ducks whil
 
 | Folder | Content |
 |---|---|
-| `项目/` | The complete runnable Unity project |
-| `图片/` | All image assets (89) |
-| `音频/` | Narration, BGM and SFX (9) |
-| `文字/` | Narration scripts & all in-game texts |
-| `场景/` | Scene files (7) |
-| `脚本/` | C# scripts (26) |
-| `字体/` | Fonts (7) |
+| `project/` | The complete runnable Unity project |
+| `images/` | All image assets (89) |
+| `audio/` | Narration, BGM and SFX (9) |
+| `texts/` | Narration script, scene text list and interaction hints |
+| `scenes/` | Scene files (7) |
+| `scripts/` | C# scripts (26) |
+| `fonts/` | Fonts (7) |
 
 ## Highlights
 

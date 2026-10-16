@@ -1,0 +1,18 @@
+Cry Elephant - Interaction Hint Texts (English, as shown at runtime)
+
+[1_Play - Rabbit]
+  Tap the rabbit to say hello!
+  Rabbit is your friend now!
+
+[3_Cry - Turtle]
+  The turtle is shy. Tap the shell gently.
+  The turtle is still shy. Be patient...
+  The turtle trusts you now!
+
+[4_Calm - Breathing]
+  Breathe in...
+  Breathe out...
+
+[5_Credits - Friendship summary (dynamic)]
+  You made N new friend(s) today!
+  Try again and make some friends!

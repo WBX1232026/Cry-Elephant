@@ -1,0 +1,9 @@
+Cry Elephant - English Narration Script
+(Plays automatically 0.6s after each page loads; background music ducks while speaking)
+
+0_Home:    "Welcome to Cry Elephant. A little story about big feelings."
+1_Play:    "The baby elephant loves to play. Tap the balloons and play with your friends."
+2_Choose:  "The elephant is holding a balloon. Will you share it with your friends?"
+3_Cry:     "Oh no! The baby elephant fell down and started to cry."
+4_Calm:    "Everyone takes a deep breath together. Tap the elephant, and breathe in... and out."
+5_Credits: "The elephant learned how to calm down. Thank you for reading!"

@@ -1,0 +1,18 @@
+Cry Elephant - All In-Game Texts (extracted from the 6 scene files)
+
+=== 0_Home ===
+  Cry Elephant
+
+=== 1_Play ===
+  [Text] Tap the rabbit to say hello!
+
+=== 2_Choose ===
+  What do you want to do? /  /     Do you want share?
+
+=== 3_Cry ===
+  [Text] The turtle is shy. Tap the shell gently.
+
+=== 4_Calm ===
+
+=== 5_Credits ===
+  Cry Elephant /  /  /     Thank You

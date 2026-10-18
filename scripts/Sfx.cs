@@ -1,4 +1,6 @@
+using DG.Tweening;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 /// <summary>
 /// Global SFX player (persistent across scenes) for one-shot sounds such as
@@ -26,6 +28,24 @@ public class Sfx : MonoBehaviour
 
         source = gameObject.AddComponent<AudioSource>();
         source.playOnAwake = false;
+    }
+
+    private void OnEnable()
+    {
+        // If the player taps Next while an animation is still running, the old
+        // scene is unloaded and the tweens would point at destroyed objects.
+        // Kill them all on scene change to avoid DOTween safe-mode warnings.
+        SceneManager.sceneUnloaded += KillTweens;
+    }
+
+    private void OnDisable()
+    {
+        SceneManager.sceneUnloaded -= KillTweens;
+    }
+
+    private static void KillTweens(Scene scene)
+    {
+        DOTween.KillAll();
     }
 
     public void Play(AudioClip clip, float volume = 1f)

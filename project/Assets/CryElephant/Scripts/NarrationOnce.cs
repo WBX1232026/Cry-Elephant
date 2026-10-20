@@ -1,26 +1,19 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 /// <summary>
-/// Plays the page narration the first time the scene is entered (once only).
+/// Plays the page narration every time the scene is entered, after a short
+/// delay. The background music ducks while the voice speaks.
 /// </summary>
 public class NarrationOnce : MonoBehaviour
 {
-    private static readonly HashSet<string> PlayedKeys = new HashSet<string>();
-
     [SerializeField] private AudioClip clip;
     [SerializeField] private float delay = 0.6f;
 
     private void Start()
     {
         if (clip == null) return;
-
-        string key = SceneManager.GetActiveScene().name + "|" + clip.name;
-        if (PlayedKeys.Contains(key)) return;
-
-        PlayedKeys.Add(key);
         Invoke(nameof(Play), delay);
     }
 
